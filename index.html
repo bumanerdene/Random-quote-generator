@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<title>Random quote machine</title>
+<head>
+  <meta charset="utf-8">
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<div class='generalContainer'>
+    <div>
+      <button id="component-1" class="button button--1" onclick="generate()">
+        Generate
+        <span class="button__container">
+          <span class="circle top-left"></span>
+          <span class="circle top-left"></span>
+          <span class="circle top-left"></span>
+          <span class="button__bg"></span>
+          <span class="circle bottom-right"></span>
+          <span class="circle bottom-right"></span>
+          <span class="circle bottom-right"></span>
+        </span>
+      </button>
+    </div>
+    <div class="quoteEmerge">
+      <div id="qe"></div>
+    </div>
+</div>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

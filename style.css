@@ -1,0 +1,26 @@
+.generalContainer{
+  display: flex;
+  height: 100vh;
+  align-items:center;
+  flex-direction: column;
+  background-image: url(path.jpg);
+  background-size: cover;
+
+}
+.quoteEmerge{
+  margin-top: 30px;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  font-size: 25px;
+  background-color: black;
+  opacity: 0.5  ;
+
+}
+#qe{
+  color: white !important;
+}
+#component-1{
+  margin-top: 100px;
+}
+/*Photo by Justin Luebke on Unsplash*/
